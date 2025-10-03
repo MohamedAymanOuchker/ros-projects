@@ -1,0 +1,34 @@
+# Build artifacts
+build/
+install/
+log/
+.ros/
+
+# Python-specific
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Editor and IDE specific files
+.vscode/
+.idea/
+*.swp
+*~
+
+# Operating System specific files
+.DS_Store
+Thumbs.db
+
+# ROS 2 specific
+# Generated messages, services, and actions
+# If you are generating these in a specific build directory,
+# ensure that directory is already ignored by 'build/'
+# Otherwise, you might need to add specific patterns like:
+# msg/
+# srv/
+# action/
+
+# Other temporary or ignored files
+*.bak
+*.tmp
